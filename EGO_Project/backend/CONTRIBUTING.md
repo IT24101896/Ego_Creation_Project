@@ -29,7 +29,7 @@ router.post('/', auth, controller.create); // Protected
 router.get('/', controller.getAll); // Public
 ```
 
-## 3. Server integration (`/backend/server.js`)
+## 3. Server Integration (`/backend/server.js`)
 Register your route in the main server file:
 ```javascript
 app.use('/api/products', require('./routes/productRoutes'));
