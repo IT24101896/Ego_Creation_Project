@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Alert } from 'react-native';
 
-const BASE_URL = 'http://10.73.229.142:3000/api'; // Your PC's IP address
+const BASE_URL = 'https://ego-creation-project.onrender.com/api'; // Hosted backend on Render
 
 const api = axios.create({
     baseURL: BASE_URL,
