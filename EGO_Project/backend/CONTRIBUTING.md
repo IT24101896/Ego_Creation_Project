@@ -16,7 +16,7 @@ const Entity = require('../models/Entity');
 exports.create = async (req, res) => { /* logic */ };
 ```
 
-## 2. Routes (`/backend/routes`)
+## 2. Routes (`/bac kend/routes`)
 Create a fiile like `productRoutes.js`. Import your controller and define the endpoints.
 **Use Middleware:** Use the `authMiddleware` to protect routes that require login.
 
