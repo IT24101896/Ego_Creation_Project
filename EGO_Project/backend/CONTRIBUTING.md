@@ -17,7 +17,7 @@ exports.create = async (req, res) => { /* logic */ };
 ```
 
 ## 2. Routes (`/backend/routes`)
-Create a file like `productRoutes.js`. Import your controller and define the endpoints.
+Create a fiile like `productRoutes.js`. Import your controller and define the endpoints.
 **Use Middleware:** Use the `authMiddleware` to protect routes that require login.
 
 ```javascript
