@@ -11,7 +11,7 @@ Create a file like `productController.js`. It should contain functions for:
 - `delete` (DELETE)
 
 **Template:**
-```javascript
+```javscript
 const Entity = require('../models/Entity');
 exports.create = async (req, res) => { /* logic */ };
 ```
